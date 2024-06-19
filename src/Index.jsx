@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChakraProvider, Box, Heading, Text, Button } from '@chakra-ui/react';
 
-const App = () => {
+const Index = () => {
   return (
     <ChakraProvider>
       <Box textAlign="center" py={10} px={6}>
@@ -19,4 +19,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Index;
